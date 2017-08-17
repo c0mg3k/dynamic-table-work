@@ -1,0 +1,14 @@
+{
+  "name": "dynamictable",
+  "version": "1.0.0",
+  "description": "testing dynamic table possibilities for work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "joshua christiansen",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
