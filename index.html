@@ -10,6 +10,11 @@
 </head>
 
 <body>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-json/2.6.0/jquery.json.min.js"></script>
     <div class="container" style="padding-bottom: 40px;">
         <div style="width: 75%; height: auth; margin: 0% auto; position: relative;" id="address-form">
             <label>City</label>
@@ -35,7 +40,9 @@
             </thead>
         </table>
     </div>
+    <button id="table-as-json" class="btn btn-primary" onclick="buildCompletJsonFromTable('address-table', 'addresses')">Log Table As Json</button>
     <script src="index.js"></script>
+    <script src="test.js"></script>
 </body>
 
 </html>
